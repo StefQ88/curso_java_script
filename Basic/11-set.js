@@ -4,6 +4,9 @@
 /* Similar a un array, pero sin valores repetidos.
 No almacena clave valor, son valores unicos.
 Mantiene el orden de insercion.
+Permite recorrer valores con .forEach(), .values(), .keys(), .forof
+
+
 
 Métodos clave: .add(), .has(), .delete().
 */

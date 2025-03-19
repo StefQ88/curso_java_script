@@ -120,3 +120,46 @@ console.log("****************")
 
 // forEach
 // es una funcion que nos sirve para ejecutar bucles asociados a elementos iterables
+// es una funcion, metodo que tienen los array de js, y lo que va a ejecutar es un for directamente
+
+// RECORRIENDO ARRAY CON forEach
+
+let myArray = ["Stefani", "Quiolla", "Stef" ,"36", true]
+
+myArray.forEach(function (value) { // da la capacidad de iterar sobre un array
+    console.log(value)
+})
+
+myArray.forEach((value) => console.log(value))
+
+console.log("****************")
+
+// RECORRIENDO SET CON forEach
+
+// Explicacion de la funcion
+// 1. creo un set con varios valores
+// 2. recorro el set con un forEach 
+
+mySet = new Set(["Stefani", "Quiolla", "Stef" ,"36", true, "stefiquio@gmail.com"]) 
+
+mySet.forEach(function (value) {
+    console.log(value)
+})
+
+mySet.forEach((value) => console.log(value))
+
+console.log("****************")
+
+// RECORRIENDO MAP CON forEach
+
+myMap = new Map([ 
+    ["name", "Stefani"],
+    ["email", "stefiquio@gmail.com"],
+    ["age", 36]
+])
+
+myMap.forEach(function(value){
+    console.log(value)
+})
+
+myMap.forEach((value) => console.log(value))

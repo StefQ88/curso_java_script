@@ -67,7 +67,7 @@ console.log(myArray.pop()) // elimina el ultimo elemento del array y lo devuelve
 
 console.log("****************")
 
-// shift y unshift 
+// shift y unshift -> extrae y agrega elementos uno por uno
 
 console.log(myArray.shift()) // shift -> elimina el primer elemento del array y tambien lo devuelve
 

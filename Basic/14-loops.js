@@ -91,20 +91,20 @@ myMap = new Map([
 
 myString = "Hola, JavaScript" // estructura que tiene un listado de caracteres
 
-for (let valor of myArray) {
-    console.log(valor)
+for (let value of myArray) {
+    console.log(value)
 }
 
-for (let valor of mySet) {
-    console.log(valor)
+for (let value of mySet) {
+    console.log(value)
 }
 
-for (let valor of myMap) {
-    console.log(myMap)
+for (let value of myMap) {
+    console.log(value)
 }
 
-for (let valor of myString) {
-    console.log(valor)
+for (let value of myString) {
+    console.log(value)
 }
 
 // Buenas practicas

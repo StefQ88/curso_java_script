@@ -4,6 +4,12 @@ para manejar grandes cantidades de datos de una manera mas eficiente */
 // Loops o bucles
 
 // for -> se ejecuta segun lo lanzamos, se sigue ejecutando si la condicion sigue siendo true
+// se usa para recorrer arrays con indices
+// permite modificar el indice manualmente
+// puede usarse para recorrer arrays pero tambien otras estructuras numericas
+// permite break y continue
+
+// MODO DE USO
 // entre las llaves esta el codigo que vamos a repetir
 // declaramos la variable, en este caso indice, mientras que sea menor a cero ejecutamos, incrementamos para pasar a la siguiente 
 
@@ -62,6 +68,11 @@ console.log("****************")
 
 // for of
 // sirve para recorrer valores de algo que sea iterable, como una estructura de datos
+// se usa para recorrer arrays, string, Maps, Sets y otros iterables
+// accede directamente a los valores sin necesidad de usar indices
+// permite break e indice para controlar el flujo
+
+// PASOS A SEGUIR
 // primero creo una variable con lo que va a ser el valor
 // of de lo que queremos recorrer
 // imprimimos el valor

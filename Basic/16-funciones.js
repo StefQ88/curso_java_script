@@ -120,7 +120,9 @@ console.log("****************")
 
 // forEach
 // es una funcion que nos sirve para ejecutar bucles asociados a elementos iterables
-// es una funcion, metodo que tienen los array de js, y lo que va a ejecutar es un for directamente
+// metodo de arrays, usado para recorrer cada elemento (se usa solo con arrays)
+// no se puede usar break ni continue (no se puede interrumpir)
+
 
 // RECORRIENDO ARRAY CON forEach
 
@@ -130,7 +132,7 @@ myArray.forEach(function (value) { // da la capacidad de iterar sobre un array
     console.log(value)
 })
 
-myArray.forEach((value) => console.log(value))
+myArray.forEach((value) => console.log(value)) //manera mas corta
 
 console.log("****************")
 

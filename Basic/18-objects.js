@@ -1,5 +1,5 @@
 /* Es un dato que no es primitivo, todo lo que no es un dato primitivo es un objeto.
-En js un objeto es una coleccion de propiedades, a nivel estructural son clave y valor, un objeto puede tener dentro
+En js un objeto es una COLECCION DE PROPIEDADES, a nivel estructural son clave y valor, un objeto puede tener dentro
 tipo de datos primitivos, y puede tener dentro otros objetos.
 
 Un mapa es solo clave valor, un objeto puede contener propiedades, otros objetos, funciones 

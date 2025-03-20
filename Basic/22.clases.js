@@ -114,8 +114,10 @@ console.log("****************")
 // Getters y Setters
 
 // Gett es de lectura no de escritura
-// en este caso age y alias se mantienen privados, no puedo leer ni escribir
-// solo tengo acceso al nombre
+// Sett es para modificar valores
+
+// en este caso age y alias se mantienen privados, no puedo leer ni escribir,solo tengo acceso al nombre
+// bank puedo modificarlo no leerlo
 
 class GetSetPerson {
 
@@ -145,3 +147,22 @@ console.log(person6)
 console.log(person6.name)
 
 person6.bank = "new 34789437287" // seteo el numero de cuenta de banco
+
+
+console.log("****************")
+
+// Herencia 
+// nos sirve para heredar las propiedades y el comportamiento de una clase
+
+class Animal {
+
+    constructor(name) {
+        this.name = name
+    }
+
+    sound() {
+        console.log("Emite un sonido generico")
+    }
+}
+
+class 

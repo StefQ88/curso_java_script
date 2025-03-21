@@ -1,1 +1,1 @@
-console.log(person5.#bank) 
+   console.log(sumIsInteger(5,"10")) 

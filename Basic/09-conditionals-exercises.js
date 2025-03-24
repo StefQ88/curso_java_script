@@ -7,6 +7,22 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=8652
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
 
+// Con condicional if
+let nombre = "Stefani"
+
+if (nombre === "Stefani") {
+    console.log("Stefani")
+}
+
+// Operador ternario
+let name = "Stefani"
+name === "Stefani" ? console.log("Stefani") : null
+
+
+
+
+
+
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje

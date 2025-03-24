@@ -1,1 +1,1 @@
-   console.log(sumIsInteger(5,"10")) 
+console.log(defaultImport(5, 10))

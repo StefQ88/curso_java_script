@@ -91,13 +91,13 @@ console.log(myArray)
 console.log("****************")
 
 // slice
-// devuelve una copia de una parte del array sin modificar el original
+// se usa para extraer una parte de un array sin modificar el original.
 
 myArray = ["Stefani", "Quiolla", "Stef" ,"36", true] // declaro el array vacio
 
-let myNewArray = myArray.slice(1,3) // 1 indice desde donde comienza la extraccion, 4 hasta donde se corta (no se incluye ese indice)
-console.log(myArray)
-console.log(myNewArray) 
+let myNewArray = myArray.slice(1,3) /// Extrae desde el índice 1 hasta el 3 (sin incluir el 3)
+console.log(myArray) // ["Stefani", "Quiolla", "Stef" ,"36", true]
+console.log(myNewArray) // ["Quiolla", "Stef"]
 
 // splice
 myArray.splice(1,3) // elimina elementos desde el indice 1 hasta completar la cantidad de elementos que le pasamos

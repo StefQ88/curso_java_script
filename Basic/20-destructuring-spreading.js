@@ -17,6 +17,7 @@ console.log(myName)
 
 console.log("****************")
 
+/************************************************************************************************************ */
 /********************************* DESESTRUCTURACION ******************************************************** */
 // nos permite extraer valores de arrays y de objetos y asignarlos a variables de manera concisa 
 

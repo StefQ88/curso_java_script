@@ -2,6 +2,7 @@
 con las funciones se escribe codigo limpio, codigo que se sea capaz de reutilizar, de modularizar
 de que seamos capaces de leer de una forma simple*/
 
+/************************************************************************************************************ */
 // Funciones simples
 
 // estructura por defecto de una funcion, function -> nombre -> parentesis -> llaves
@@ -31,6 +32,7 @@ myFuncWithParams("Stef")
 
 console.log("****************")
 
+/************************************************************************************************************ */
 // Funciones anonimas
 // son funciones que no tienen un nombre definido
 // las funciones anonimas las tenemos que asignar a una variable o una cosntante, sino no tengo manera de poder invocarla
@@ -45,12 +47,13 @@ myFunc2("Stefani")
 
 console.log("****************")
 
-// Arrow functions
+/************************************************************************************************************ */
+//Arrow functions
 // es una forma mas sencilla de escribir funciones 
 // se puede usar cuando queremos una sola linea
 // debemos asignarlas a una variable o constante
 
-const myFunc3 = (name) => { 
+const myFunc3 = (name) => { //funcion sin nombre que guardamos en una constante
     console.log(`Hola, ${name}`)
 }
 myFunc3("Stefani") // las invocamos exactamente igual
@@ -90,6 +93,7 @@ console.log(result) // devuelve el resultado de 5 x 10 y despues he decidido imp
 
 console.log("****************")
 
+/************************************************************************************************************ */
 // Funcion anidada
 
 function extern() {
@@ -105,6 +109,7 @@ extern()
 
 console.log("****************")
 
+/************************************************************************************************************ */
 // Funciones de orden superior
 // Permite escribir código más flexible y reutilizable.
 // Esta función recibe otra función como argumento y la ejecuta con un parámetro específico.
@@ -118,6 +123,7 @@ applyFunc(myFunc4, "Funcion de orden superior") // Esto significa que cualquier 
 
 console.log("****************")
 
+/************************************************************************************************************ */
 // forEach
 // es una funcion que nos sirve para ejecutar bucles asociados a elementos iterables
 // metodo de arrays, usado para recorrer cada elemento (se usa solo con arrays)
